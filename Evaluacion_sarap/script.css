@@ -1,0 +1,95 @@
+:root {
+    --blue: #06283D;
+    --white: #ffff;
+}
+
+.principal_icons{
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+}
+
+.tarjet {
+    display: flex;
+    flex-direction: column;
+    
+    background-color: var(--white);
+    color: var(--blue);
+    width: 400px;
+    height: 600px;
+    border-radius: 20px;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.climate {
+    display: flex;
+    font-size: 20px;
+}
+
+#imagen{
+    width: 250px;
+    height: auto;
+}
+
+.information {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    margin-bottom: 0px;
+    padding: 0px;
+}
+
+p.tamaño {
+    font-size: 40px;
+    margin-bottom: 0px;
+    padding: 0px;
+}
+
+p.grado{
+    display: flex;
+    align-items: center;
+    margin-bottom: 0px;
+    padding: 0px;
+}
+.grado{
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: var(--blue);
+}
+
+.state {
+    display: flex;
+    justify-content: space-between;
+}
+
+.humidity {
+    display: flex;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+    padding: 0px;
+}
+
+p.text {
+    margin:  0px;
+}
+
+#grade {
+    margin: 13px 0px;
+    font-weight: bold;
+}
